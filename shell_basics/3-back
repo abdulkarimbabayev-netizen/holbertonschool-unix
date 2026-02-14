@@ -1,2 +1,3 @@
 #!/bin/bash
-if [ -n "$OLDPWD" ]; then cd "$OLDPWD"; fi; pwd
+cd "$OLDPWD" 2>/dev/null
+pwd
