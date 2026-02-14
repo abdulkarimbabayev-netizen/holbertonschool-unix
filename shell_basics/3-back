@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -n "$OLDPWD" ] && cd "$OLDPWD" && pwd
+if [ -n "$OLDPWD" ]; then cd "$OLDPWD"; fi; pwd
