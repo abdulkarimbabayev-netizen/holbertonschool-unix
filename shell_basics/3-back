@@ -1,3 +1,2 @@
 #!/bin/bash
-cd "$(pwd -P)" 2>/dev/null
-
+cd -
