@@ -1,2 +1,2 @@
 #!/bin/bash
-cd "$OLDPWD" 2>/dev/null
+cd "$OLDPWD" 2>/dev/null; pwd
