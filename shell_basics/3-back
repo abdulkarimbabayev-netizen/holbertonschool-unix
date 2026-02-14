@@ -1,6 +1,2 @@
 #!/bin/bash
-# 3-back: return to previous directory using PREV_DIR
-if [ -n "$PREV_DIR" ]; then
-    cd "$PREV_DIR"
-    pwd
-fi
+[ -n "$OLDPWD" ] && cd "$OLDPWD" && pwd
